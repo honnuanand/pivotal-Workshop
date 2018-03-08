@@ -1,0 +1,11 @@
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\bin\Debug\netcoreapp2.0\SimpleCloudFoundry.deps.json
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\bin\Debug\netcoreapp2.0\SimpleCloudFoundry.runtimeconfig.json
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\bin\Debug\netcoreapp2.0\SimpleCloudFoundry.runtimeconfig.dev.json
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\bin\Debug\netcoreapp2.0\SimpleCloudFoundry.dll
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\bin\Debug\netcoreapp2.0\SimpleCloudFoundry.pdb
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\obj\Debug\netcoreapp2.0\SimpleCloudFoundry.csprojResolveAssemblyReference.cache
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\obj\Debug\netcoreapp2.0\SimpleCloudFoundry.csproj.CoreCompileInputs.cache
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\obj\Debug\netcoreapp2.0\SimpleCloudFoundry.AssemblyInfoInputs.cache
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\obj\Debug\netcoreapp2.0\SimpleCloudFoundry.AssemblyInfo.cs
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\obj\Debug\netcoreapp2.0\SimpleCloudFoundry.dll
+C:\CharlesSchwabDemo\Samples\Configuration\src\AspDotNetCore\SimpleCloudFoundry\obj\Debug\netcoreapp2.0\SimpleCloudFoundry.pdb

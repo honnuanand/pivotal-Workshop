@@ -1,0 +1,9 @@
+---
+applications:
+- name: foo
+  memory: 1G
+  stack: windows2012R2
+  env:
+    Hosting__Environment: development
+  services:
+   - myConfigServer
