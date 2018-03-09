@@ -1,0 +1,10 @@
+---
+applications:
+- name: fortuneui
+  stack: windows2012R2
+  command: .\Fortune-Teller-UI
+  env:
+    ASPNETCORE_ENVIRONMENT: Production
+  services:
+   - myDiscoveryService
+   - myHystrixService
