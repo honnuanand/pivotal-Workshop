@@ -1,0 +1,10 @@
+﻿---
+applications:
+- name: sqlserverefcore-connector
+  memory: 512M
+  stack: windows2012R2
+  command: .\SqlServerEFCore
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - mySqlServerService

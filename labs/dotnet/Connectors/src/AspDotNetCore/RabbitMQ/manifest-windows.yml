@@ -1,0 +1,10 @@
+---
+applications:
+- name: rabbitmq-connector
+  memory: 512M
+  stack: windows2012R2
+  command: .\RabbitMQ
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+    - myRabbitMQService
