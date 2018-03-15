@@ -1,8 +1,13 @@
 management:
-  security:
-    enabled: false
 
   endpoints:
     web:
       exposure:
         include: "*"
+
+  info:
+    git:
+      mode: full
+  cloudfoundry:
+    enabled: true
+    skip-ssl-validation: true
