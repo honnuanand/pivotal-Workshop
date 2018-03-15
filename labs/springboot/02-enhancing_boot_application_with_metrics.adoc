@@ -327,10 +327,10 @@ management:
 
 . Find the URL created for your app in the health status report. Browse to your app.  Also view your application details in the Apps Manager UI:
 +
-image::images/appsman.jpg[]
+image::../images/appsman.jpg[]
 
 . From this UI you can also dynamically change logging levels:
 +
-image::images/logging.jpg[]
+image::../images/logging.jpg[]
 
 *Congratulations!* You’ve just learned how to add health and metrics to any Spring Boot application.
