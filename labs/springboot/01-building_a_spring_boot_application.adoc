@@ -8,15 +8,11 @@ While we could visit https://start.spring.io to create a new Spring Boot project
 
 . Open a Terminal (e.g., _cmd_ or _bash_ shell)
 
-. Change the working directory to be _devops-workshop/labs/my_work/cloud-native-spring_
+. Change the working directory to be _pivotal-workshop/labs/my_work/cloud-native-spring_
 +
-  cd /devops-workshop/labs/my_work/cloud-native-spring
+  cd /pivotal-workshop/labs/springboot/my_work/cloud-native-spring
 
 . Open this project in your editor/IDE of choice.
-+
-*_STS Import Help_*
-+
-Select _File > Import…_. In the susequent dialog choose _Gradle > Existing Gradle Project_ then click the _Next_ button. In the _Import Gradle Project_ dialog browse to the _cloud-native-spring_ directory (e.g. _devops-workshop/labs/my_work/cloud-native-spring_) then click the _Open_ button, then click the _Finish_ button.
 
 == Add an Endpoint
 
@@ -44,7 +40,7 @@ public class GreetingController {
 +
 [source,java]
 ---------------------------------------------------------------------
-@RequestMapping("/")
+@RequestMapping("/hello")
 public String hello() {
     return "Hello World!";
 }
@@ -75,21 +71,16 @@ public class GreetingController {
 
 Return to the Terminal session you opened previously and make sure your working directory is set to be _devops-workshop/labs/my_work/cloud-native-spring_
 
-. Find out what tasks are available to you with
-+
-  gradle tasks
   
 . First we'll run tests
 +
-  gradle test
+  mvn test
 
 . Next we'll package the application as a libary artifact (it cannot be run on its own)
 +
-  gradle jar
+  mvn package
   
-. Next we'll package the application as an executable artifact (that can be run on its own because it will include all transitive dependencies along with embedding a servlet container)
-+
-  gradle bootRepackage
+
 
 
 == Run the _cloud-native-spring_ application
@@ -98,7 +89,7 @@ Now we're ready to run the application
 
 . Run the application with
 +
-  gradle bootRun
+  mvn spring-boot:run
 
 . You should see the application start up an embedded Apache Tomcat server on port 8080 (review terminal output):
 +
@@ -129,10 +120,9 @@ applications:
 - name: cloud-native-spring
   random-route: true
   instances: 1
-  path: ./build/libs/cloud-native-spring-1.0-SNAPSHOT-exec.jar
+  path: ./target/cloud-native-spring-0.0.1-SNAPSHOT.jar
   buildpack: java_buildpack
-  env:
-    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
+
 ---------------------------------------------------------------------
 
 . Push application into Cloud Foundry
