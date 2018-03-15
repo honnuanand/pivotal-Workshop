@@ -1,0 +1,10 @@
+---
+applications:
+- name: oauth-connector
+  memory: 512M
+  stack: windows2012R2
+  command: .\OAuth
+  env:
+     ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - myOAuthService

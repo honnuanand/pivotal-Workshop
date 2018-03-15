@@ -1,0 +1,10 @@
+﻿---
+applications:
+- name: redis-connector
+  memory: 512M
+  stack: windows2012R2
+  command: .\Redis
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - myRedisService

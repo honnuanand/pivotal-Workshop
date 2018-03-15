@@ -2,16 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/sample-code/dotnet-core-sample/bin/Debug/netcoreapp2.0
-/sample-code/dotnet-core-sample/obj
 /.vs
-/sample-code/Configuration/src/AspDotNetCore/.vs
-/sample-code/Configuration/src/AspDotNetCore/CloudFoundry/bin/Debug
-/sample-code/Configuration/src/AspDotNetCore/CloudFoundry/obj
-/sample-code/Configuration/src/AspDotNetCore/Simple/obj
-/labs/dotnet/Configuration/src/AspDotNetCore/.vs
-/labs/dotnet/Configuration/src/AspDotNetCore/CloudFoundry/bin/Debug
-/labs/dotnet/Configuration/src/AspDotNetCore/CloudFoundry/obj
-/labs/dotnet/Configuration/src/AspDotNetCore/SimpleCloudFoundry/bin/Debug
-/labs/dotnet/Configuration/src/AspDotNetCore/SimpleCloudFoundry/obj
-/labs/dotnet/Configuration/src/AspDotNetCore/Simple/obj

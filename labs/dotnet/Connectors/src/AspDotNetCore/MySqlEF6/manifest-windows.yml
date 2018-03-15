@@ -1,0 +1,10 @@
+﻿---
+applications:
+- name: mysqlef6-connector
+  memory: 512M
+  stack: windows2012R2
+  command: .\MySqlEF6
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - myMySqlService
