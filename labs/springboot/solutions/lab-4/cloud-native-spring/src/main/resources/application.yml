@@ -1,0 +1,23 @@
+management:
+
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  info:
+    git:
+      mode: full
+  cloudfoundry:
+    enabled: true
+    skip-ssl-validation: true
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+security:
+  basic:
+    enabled:  false
