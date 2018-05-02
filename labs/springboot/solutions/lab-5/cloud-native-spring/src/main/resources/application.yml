@@ -1,0 +1,15 @@
+security:
+  basic:
+    enabled:  false
+
+  info:
+    git:
+      mode: full
+  cloudfoundry:
+    enabled: true
+    skip-ssl-validation: true
+
+spring:
+  application:
+    name: cloud-native-spring
+
