@@ -1,9 +1,6 @@
-management:
-
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+security:
+  basic:
+    enabled:  false
 
   info:
     git:
@@ -12,12 +9,7 @@ management:
     enabled: true
     skip-ssl-validation: true
 
-
 spring:
-  jpa:
-    hibernate:
-      ddl-auto: create
+  application:
+    name: cloud-native-spring
 
-security:
-  basic:
-    enabled:  false
