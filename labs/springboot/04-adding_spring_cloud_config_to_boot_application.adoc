@@ -17,7 +17,7 @@ Adding a dependency management plugin and other miscellaneous configuration.
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.pivotal</groupId>
+upId>
 	<artifactId>cloud-native-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -295,6 +295,13 @@ applications:
   - config-server
 ---------------------------------------------------------------------
 
+*Our PCF instance is using self-signed SSL certificates. Set the TRUST_CERTS environment variable to API endpoint of your Elastic Runtime instance.*
+
+You can quickly retrieve the API endpoint by running the command cf api .
+
+*$ cf set-env greeting-config TRUST_CERTS API_END_POINT*. Dont include https in the URL.
+
+  
 == Deploy and test application
 
 . Build the application
