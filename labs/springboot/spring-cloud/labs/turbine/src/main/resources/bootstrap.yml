@@ -1,0 +1,9 @@
+server:
+  port: 8585
+spring:
+  application:
+    name: turbine
+turbine:
+  aggregator:
+    clusterConfig: GREETING-HYSTRIX
+  appConfig: greeting-hystrix
