@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: greeting-hystrix
+security:
+  basic:
+    enabled: false
