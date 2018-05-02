@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.data:spring-data-rest-webmvc:2.6.8.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.6.8.RELEASE/50c58b901f47fb43a9dc8e7073e906d533b0d42/spring-data-rest-webmvc-2.6.8.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.6.8.RELEASE/11166ed43fd165849b207266be35bb9a47ef2a49/spring-data-rest-webmvc-2.6.8.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
