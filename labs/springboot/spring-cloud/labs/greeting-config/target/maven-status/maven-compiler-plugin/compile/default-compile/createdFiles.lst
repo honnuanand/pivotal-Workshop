@@ -1,0 +1,7 @@
+io/pivotal/fortune/FortuneService.class
+io/pivotal/quote/QuoteController.class
+io/pivotal/quote/Quote.class
+io/pivotal/greeting/GreetingController.class
+io/pivotal/GreetingConfigApplication.class
+io/pivotal/quote/QuoteService.class
+io/pivotal/greeting/GreetingProperties.class

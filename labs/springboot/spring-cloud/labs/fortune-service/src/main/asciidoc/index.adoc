@@ -1,0 +1,15 @@
+= Spring Rest Docs for Fortune Service
+
+Http Request:
+
+include::{snippets}/index/http-request.adoc[]
+
+Http Response:
+
+include::{snippets}/index/http-response.adoc[]
+
+httpie Request:
+
+include::{snippets}/index/httpie-request.adoc[]
+
+
