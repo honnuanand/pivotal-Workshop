@@ -15,7 +15,7 @@ namespace CloudFoundry
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseCloudFoundryHosting()
+                .UseCloudFoundryHosting(5555)
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
