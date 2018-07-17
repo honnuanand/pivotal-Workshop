@@ -1,0 +1,11 @@
+﻿---
+applications:
+- name: demoactuator
+  memory: 512M
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack
+  path: /bin/Debug/netcoreapp2.0/ubuntu.14.04-x64/publish
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+    Product_Version: 2.0.0
+  services:
+   - myMySqlService
